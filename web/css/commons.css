@@ -1,0 +1,16 @@
+.center-display{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.general-button{
+    background-color: #2978B5;
+    color: #F5F5F5;
+    font-weight: 600;
+}
+
+.highlight{
+    color: #2978B5;
+    font-weight: 600;
+}

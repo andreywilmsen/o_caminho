@@ -1,0 +1,47 @@
+#hero {
+    width: 100;
+    background-color: #0F0F0F;
+    height: 94.2vh;
+    margin-top: 5.8vh !important;
+    padding: 0px !important;
+}
+
+#hero h1,
+#hero span,
+#hero p,
+#hero h2,
+#hero h3 {
+    color: #F5F5F5;
+}
+
+#presentation-evangelism {
+    width: 100vw;
+    height: 95.8vh;
+    background-color: #F5F5F5;
+    color: #0F0F0F;
+}
+
+#header-evangelism,
+#content-evangelism,
+#button-evangelism {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 5px 20px;
+}
+
+#header-evangelism {
+    height: 20vh;
+}
+
+#header-evangelism h1{
+    background-color: #0F0F0F;
+    color: #f5f5f5;
+    padding: 10px;
+    border-radius: 15px 0px 15px 0px;
+}
+
+#content-evangelism {
+    height: 35vh;
+    font-size: 32px;
+}

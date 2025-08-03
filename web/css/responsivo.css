@@ -1,0 +1,193 @@
+/* ====================================
+   🔹 Estilos Globais (Mobile First)
+==================================== */
+
+/* Small devices (phones ≥576px) */
+
+@media (min-width: 320px) {
+
+    #header-evangelism,
+    #content-evangelism,
+    #button-evangelism {
+        width: 95% !important;
+    }
+
+    #header-evangelism {
+        height: 10vh;
+    }
+
+    #content-evangelism {
+        height: 20vh;
+    }
+
+    #content-evangelism p {
+        width: 100%;
+    }
+
+    #header-evangelism h1 {
+        font-size: 24px;
+    }
+
+    #content-evangelism p {
+        font-size: 20px;
+    }
+
+    #button-evangelism button {
+        width: 160px;
+        height: 40px;
+        font-size: 18px;
+    }
+}
+
+/* Medium devices (tablets ≥768px) */
+@media (min-width: 768px) {
+
+    #header-evangelism,
+    #content-evangelism,
+    #button-evangelism {
+        width: 90% !important;
+    }
+
+    #content-evangelism p {
+        width: 100%;
+    }
+
+    #header-evangelism h1 {
+        font-size: 43px;
+    }
+
+    #content-evangelism p {
+        font-size: 26px;
+    }
+
+    #button-evangelism button {
+        width: 180px;
+        height: 50px;
+        font-size: 20px;
+    }
+}
+
+/* Large devices (desktops ≥992px) */
+@media (min-width: 992px) {
+
+    #header-evangelism,
+    #content-evangelism,
+    #button-evangelism {
+        width: 60% !important;
+    }
+
+
+    #header-evangelism {
+        height: 15vh;
+    }
+
+    #content-evangelism {
+        height: 30vh;
+        font-size: 32px;
+    }
+
+    #button-evangelism {
+        height: 5vh;
+    }
+
+    #content-evangelism p {
+        width: 100%;
+    }
+
+    #header-evangelism h1 {
+        font-size: 45px;
+    }
+
+    #content-evangelism p {
+        font-size: 28px;
+    }
+
+    #button-evangelism button {
+        width: 200px;
+        height: 55px;
+        font-size: 20px;
+    }
+}
+
+/* Extra large devices (large desktops ≥1200px) */
+@media (min-width: 1200px) {
+
+    #header-evangelism,
+    #content-evangelism,
+    #button-evangelism {
+        width: 60% !important;
+    }
+
+    #header-evangelism {
+        height: 15vh;
+    }
+
+    #content-evangelism {
+        height: 30vh;
+        font-size: 32px;
+    }
+
+    #button-evangelism {
+        height: 5vh;
+    }
+
+    #content-evangelism p {
+        width: 100%;
+    }
+
+
+    #header-evangelism h1 {
+        font-size: 48px;
+    }
+
+    #content-evangelism p {
+        font-size: 32px;
+    }
+
+    #button-evangelism button {
+        width: 220px;
+        height: 55px;
+        font-size: 22px;
+    }
+}
+
+/* XXL devices (very large screens ≥1400px) */
+@media (min-width: 1400px) {
+
+    #header-evangelism,
+    #content-evangelism,
+    #button-evangelism {
+        width: 60% !important;
+    }
+
+    #header-evangelism {
+        height: 20vh;
+    }
+
+    #content-evangelism {
+        height: 35vh;
+        font-size: 32px;
+    }
+
+    #button-evangelism {
+        height: 5vh;
+    }
+
+    #content-evangelism p {
+        width: 65%;
+    }
+
+    #header-evangelism h1 {
+        font-size: 48px;
+    }
+
+    #content-evangelism p {
+        font-size: 32px;
+    }
+
+    #button-evangelism button {
+        width: 250px;
+        height: 55px;
+        font-size: 24px;
+    }
+}
