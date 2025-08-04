@@ -9,7 +9,45 @@
     #header-evangelism,
     #content-evangelism,
     #button-evangelism {
-        width: 95% !important;
+        width: 90% !important;
+    }
+
+    #header-evangelism {
+        height: 10vh;
+    }
+
+    #content-evangelism {
+        height: 15vh;
+        max-height: 200px !important;
+        margin: 10px 0px;
+    }
+
+    #content-evangelism p {
+        width: 100%;
+    }
+
+    #header-evangelism h1 {
+        font-size: 20px;
+    }
+
+    #content-evangelism p {
+        font-size: 16px;
+    }
+
+    #button-evangelism button {
+        width: 130px;
+        height: 36px;
+        font-size: 13px;
+    }
+}
+
+
+@media (min-width: 450px) {
+
+    #header-evangelism,
+    #content-evangelism,
+    #button-evangelism {
+        width: 90% !important;
     }
 
     #header-evangelism {
@@ -18,6 +56,8 @@
 
     #content-evangelism {
         height: 20vh;
+        max-height: 200px !important;
+        margin: 10px 0px;
     }
 
     #content-evangelism p {
@@ -25,7 +65,7 @@
     }
 
     #header-evangelism h1 {
-        font-size: 24px;
+        font-size: 32px;
     }
 
     #content-evangelism p {
@@ -33,11 +73,12 @@
     }
 
     #button-evangelism button {
-        width: 160px;
+        width: 145px;
         height: 40px;
-        font-size: 18px;
+        font-size: 16px;
     }
 }
+
 
 /* Medium devices (tablets ≥768px) */
 @media (min-width: 768px) {
@@ -45,7 +86,21 @@
     #header-evangelism,
     #content-evangelism,
     #button-evangelism {
-        width: 90% !important;
+        width: 70% !important;
+    }
+
+    #header-evangelism {
+        height: 15vh;
+
+    }
+
+    #content-evangelism {
+        height: 30vh;
+        margin: 0px;
+    }
+
+    #button-evangelism {
+        height: 5vh;
     }
 
     #content-evangelism p {
@@ -53,17 +108,17 @@
     }
 
     #header-evangelism h1 {
-        font-size: 43px;
+        font-size: 38px;
     }
 
     #content-evangelism p {
-        font-size: 26px;
+        font-size: 22px;
     }
 
     #button-evangelism button {
-        width: 180px;
-        height: 50px;
-        font-size: 20px;
+        width: 170px;
+        height: 45px;
+        font-size: 18px;
     }
 }
 
@@ -76,36 +131,32 @@
         width: 60% !important;
     }
 
-
     #header-evangelism {
         height: 15vh;
     }
 
     #content-evangelism {
         height: 30vh;
-        font-size: 32px;
+        margin: 0px;
     }
 
     #button-evangelism {
         height: 5vh;
     }
 
+    #header-evangelism h1 {
+        font-size: 40px;
+    }
+
     #content-evangelism p {
         width: 100%;
-    }
-
-    #header-evangelism h1 {
-        font-size: 45px;
-    }
-
-    #content-evangelism p {
-        font-size: 28px;
+        font-size: 23px;
     }
 
     #button-evangelism button {
-        width: 200px;
-        height: 55px;
-        font-size: 20px;
+        width: 180px;
+        height: 45px;
+        font-size: 18px;
     }
 }
 
@@ -115,7 +166,7 @@
     #header-evangelism,
     #content-evangelism,
     #button-evangelism {
-        width: 60% !important;
+        width: 50% !important;
     }
 
     #header-evangelism {
@@ -124,30 +175,27 @@
 
     #content-evangelism {
         height: 30vh;
-        font-size: 32px;
+        margin: 0px;
     }
 
     #button-evangelism {
         height: 5vh;
     }
 
+    #header-evangelism h1 {
+        font-size: 40px;
+    }
+
     #content-evangelism p {
         width: 100%;
-    }
-
-
-    #header-evangelism h1 {
-        font-size: 48px;
-    }
-
-    #content-evangelism p {
-        font-size: 32px;
+        max-width: 700px;
+        font-size: 24px;
     }
 
     #button-evangelism button {
-        width: 220px;
-        height: 55px;
-        font-size: 22px;
+        width: 170px;
+        height: 45px;
+        font-size: 18px;
     }
 }
 
@@ -157,37 +205,35 @@
     #header-evangelism,
     #content-evangelism,
     #button-evangelism {
-        width: 60% !important;
+        width: 40% !important;
     }
 
     #header-evangelism {
-        height: 20vh;
+        height: 12vh;
     }
 
     #content-evangelism {
-        height: 35vh;
-        font-size: 32px;
+        height: 30vh;
+        margin: 0px;
     }
 
     #button-evangelism {
-        height: 5vh;
-    }
-
-    #content-evangelism p {
-        width: 65%;
+        height: 7vh;
     }
 
     #header-evangelism h1 {
-        font-size: 48px;
+        font-size: 40px;
     }
 
     #content-evangelism p {
-        font-size: 32px;
+        width: 100%;
+        max-width: 700px;
+        font-size: 24px;
     }
 
     #button-evangelism button {
-        width: 250px;
-        height: 55px;
-        font-size: 24px;
+        width: 170px;
+        height: 45px;
+        font-size: 18px;
     }
 }
