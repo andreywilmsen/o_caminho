@@ -34,7 +34,7 @@
     height: 20vh;
 }
 
-#header-evangelism h1{
+#header-evangelism h1 {
     background-color: #0F0F0F;
     color: #f5f5f5;
     padding: 10px;
@@ -44,4 +44,30 @@
 #content-evangelism {
     height: 35vh;
     font-size: 32px;
+}
+
+#days-of-worship {
+    background-color: #F5F5F5;
+    width: 100vw;
+    height: 95.8vh;
+}
+
+#monthly-schedule {
+    width: 100vw;
+    height: 95.8vh;
+    background-color: #F5F5F5;
+}
+
+#day-with-life {
+    color: #F5F5F5;
+    width: 100vw;
+    height: 95.8vh;
+    background-color: #0F0F0F;
+}
+
+#latests-posts{
+    width: 100vw;
+    height: 95.8vh;
+    background-color: #1A1A1A;
+    color: #F5F5F5;
 }

@@ -13,6 +13,7 @@ $this->title = 'My Yii Application';
             <h1>O CAMINHO</h1>
         </div>
     </section>
+
     <section>
         <div id="presentation-evangelism" class="center-display flex-column">
             <div id="header-evangelism" class="">
@@ -24,8 +25,33 @@ $this->title = 'My Yii Application';
                 </p>
             </div>
             <div id="button-evangelism" class="">
-                <?= Html::button('Recomece hoje!', ['class' => 'btn general-button'])?>
+                <?= Html::button('Recomece hoje!', ['class' => 'btn general-button']) ?>
             </div>
         </div>
     </section>
+
+    <section>
+        <div id="days-of-worship" class="center-display">
+            <h1>DIAS DE CULTO</h1>
+        </div>
+    </section>
+
+    <section>
+        <div id="monthly-schedule" class="center-display">
+            <h1>AGENDA MENSAL</h1>
+        </div>
+    </section>
+
+    <section>
+        <div id="day-with-life" class="center-display">
+            <h1>DIA COM VIDA</h1>
+        </div>
+    </section>
+
+    <section>
+        <div id="latests-posts" class="center-display">
+            <h1>ÚLTIMAS POSTAGENS</h1>
+        </div>
+    </section>
+
 </div>
