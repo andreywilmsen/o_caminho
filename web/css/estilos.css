@@ -50,6 +50,8 @@
     background-color: #F5F5F5;
     width: 100vw;
     height: 95.8vh;
+    display: flex;
+    flex-direction: column;
 }
 
 #monthly-schedule {
@@ -65,9 +67,13 @@
     background-color: #0F0F0F;
 }
 
-#latests-posts{
+#latests-posts {
     width: 100vw;
     height: 95.8vh;
     background-color: #1A1A1A;
     color: #F5F5F5;
+}
+
+#days-of-worship h1 span{
+    color: #0F0F0F;
 }

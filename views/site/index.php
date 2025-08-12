@@ -31,8 +31,9 @@ $this->title = 'My Yii Application';
     </section>
 
     <section>
-        <div id="days-of-worship" class="center-display">
-            <h1>DIAS DE CULTO</h1>
+        <div id="days-of-worship" >
+            <h1>DIAS DE <span>CULTO</span></h1>
+            <?= Html::img('/assets/church.jpg', ['class' => 'image_worship']); ?>
         </div>
     </section>
 
